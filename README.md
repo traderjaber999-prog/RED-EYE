@@ -1,3 +1,110 @@
-# RED-EYE
-<h1>My first website</h1>
-<p>i can fixt it</p>
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>RED EYE</title>
+</head>
+<body>
+
+<h3 id="tittle">RED EYE</h3>
+<p>Red eye is a brand name. This is my dream brand</p><p>here you see something about my brand</p>
+<img src="F:\New folder\IMG_E0578.JPG" width="300" alt="RED EYE IMAGE"></body>
+<a href="https://www.instagram.com/"><p><b id="instagram">This is my instagram id</b></a></p>
+<ol>
+    <li id="it">it is a bus brand name</li>
+    <li>it is a premium brand</li>
+    <li>it is a comfortable <span>brand</span></li>
+    <li>it is a safe brand</li>
+    </ol>
+    <ul>
+       <b><li>one day insahallah i will be a successful person</li></b>
+    </ul>
+    <p>you can find some more details <a href="https://www.tiktok.com/@zul_fiquer?is_from_webapp=1&sender_device=pc"><button>here</button></a></p>
+   <b> <input type="text"> drop your advice</input></b>
+   <p></p>
+<strong>Thank you for visiting my page</strong>
+
+<style>
+
+#it{
+    color:blue;
+} 
+ .ok{
+        color:salmon;
+    }
+    #know{
+        color:green;
+    }
+    div{color:red;}
+    #country{
+        font-weight:bold;
+        border:1px dotted  green ;width: 240px;
+        border-radius:10px;
+    }
+    .ok{ border: 1px dotted green; width:180px;
+        border-radius:5px;
+        margin: 5px;
+       padding:3px;
+       
+    }
+    #tittle{
+        color:rgb(255, 6, 6);background:rgba(0, 128, 0, 0.26);
+        border:1px solid green;
+        border-radius:10px;margin: 0px 48% 0px 45%;
+    }
+    #instagram{
+        margin-left: 28px;
+    }
+    .id{
+        border:2px dotted green;
+        display:inline-block
+    }
+    .laa{
+        border:2px dotted rgb(255, 0, 0);
+        display:inline-block;
+        padding:2px;
+        
+
+
+    }
+  
+</style>
+    <link rel="stylesheet" href="C:\web development\First website\style.css">
+
+<ol>
+    <li class="ok">i am a good man</li>
+    <li class="ok">so it is best time for me </li>
+    <li class="ok">i willdo it</li>
+    <li class="ok">ok its an good things</li>
+    <li class="ok">wow thats <span id="know">cool</span></li>
+</ol>
+<div>
+<p>this is new bangladesh</p>
+<p id="country">we do good work for our country</p>
+</div>
+<div >
+    <ol class="id">
+        <li>alhamdulillah</li>
+        <li>i am fine</li>
+        <li>allah is the best cretor  </li>
+    </ol>
+    <ol class="id">
+        <li>laila ha illa ant</li>
+        <li>la ilaha illa ant</li>
+    </ol>
+    <p> </p>
+    
+    <ul class="laa">
+        <li>alhamdulillah</li>
+        <li>ala kulli hal</li>
+
+    </ul>
+    <ul class="laa">
+        <li>subhanallah</li>
+        <li>allahu akbar</li>
+    </ul>
+</div>
+
+</body>
+ </html>
