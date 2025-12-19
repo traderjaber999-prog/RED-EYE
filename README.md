@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>RED EYE</title>
+   
 </head>
 <body>
 
@@ -70,7 +70,7 @@
     }
   
 </style>
-    <link rel="stylesheet" href="C:\web development\First website\style.css">
+<link rel="stylesheet" href="C:\web development\First website\style.css">
 
 <ol>
     <li class="ok">i am a good man</li>
@@ -95,12 +95,11 @@
     </ol>
     <p> </p>
     
-    <ul class="laa">
+   <ul class="laa">
         <li>alhamdulillah</li>
         <li>ala kulli hal</li>
-
-    </ul>
-    <ul class="laa">
+        </ul>
+ <ul class="laa">
         <li>subhanallah</li>
         <li>allahu akbar</li>
     </ul>
