@@ -276,7 +276,33 @@
     }
     .ig{
         border-radius: 10px;
-    } 
+    }
+     @media only screen and (max-width: 768px) {
+  /* Puro page-er extra side scrolling bondho korbe */
+  body, html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  /* Image ebong Video-ke mobile screen-e fit korbe */
+  img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+     }
+     @media only screen and (max-width: 768px) {
+  /* Mobile-e font size boro rakha bhalo jate pora jay */
+  p, span, a {
+    font-size: 16px !important;
+  }
+
+  /* Button gulo jate ekta arektar upor na uthe thake */
+  button, .btn {
+    padding: 12px 20px;
+    margin: 10px 0;
+  }
+}
 </style>
 </body>
  </html>
