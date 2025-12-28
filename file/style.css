@@ -16,3 +16,21 @@
     white-space: nowrap;
     padding: 5px 0;         /* Dekhte arektu sundor lagbe */
 } 
+
+
+
+
+/*mobile view*/
+@media only screen and (max-width:600px)
+{
+    img{
+
+    }
+}
+
+/*tablet ar jonno */
+@media only screen and (min-width:601px) and (max-width:768px){
+    img{
+        
+    }
+}
