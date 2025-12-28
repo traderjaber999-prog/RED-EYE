@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
    
 </head>
-<body> <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<body> 
 
 
 <h3 id="tittle">RED EYE</h3>
@@ -193,6 +193,7 @@
 </style>
 <link rel="stylesheet" href="file/style.css">
 <a id="fix" href="https://m.me/junaid.al.jaber?hash=Abb4HLkShByPhx68&source_id=8585216" > <button id="contact-button"> contact</button></a>
+<a id="help" href="https://m.me/junaid.al.jaber?hash=Abb4HLkShByPhx68&source_id=8585216" ><button id="button-2">Help</button></a>
 
 
 <ol>
@@ -261,23 +262,65 @@
 
 </div>
 <style>
-    .imge{
-        height: 200px;
-        width: 200px;
-        overflow-y: auto;
-        overflow-x: hidden;
-        display: block;
-        border: 1px solid white;
-        padding: 7px;
-       border: 10px;
+   .imge{
+    height:300px;
+    width:250px;
+    display:block;
+    overflow-y: auto;
+    overflow-x: hidden;
+  
+    border:2px solid rgba(58, 168, 58, 0.774);
+    border-radius:7px;
+background-color: rgb(236, 212, 177);
 
-        
+   }
+   .ig{
+    border-radius: 7px;
+    border: 1px solid  rgb(122, 97, 97);
+}
 
-    }
-    .ig{
-        border-radius: 10px;
-    }
+
+
+
+   #help{
+    position: fixed;
+    z-index: 1000;
+    bottom: 50px;
+    right:15px;
+   }
+#button-2{
+    color: rgb(18, 93, 158);
+    background-color: bisque;
+    border-radius: 4px;
+    border:1px solid green;
+}
    
+</style>
+<style>
+    /* --- Media Query for Mobile (max 600px) --- */
+@media only screen and (max-width: 600px) {
+    .imge {
+        width: 95%;           /* Mobail-e box-ti screen-er pray purota jure thakbe */
+        height: 350px;        /* Chhobi gulo boro dekhanor jonno height bariye deya hoyeche */
+        margin: 10px auto;    /* Box-tike majhkhane rakhar jonno */
+        overflow-y: scroll;   /* Mobail-e scroll kora shohoj korbe */
+        border-width: 1px;    /* Border-ti halka korar jonno */
+    }
+
+    .ig {
+        width: 100%;          /* Chhobi gulo box-er pasha-pashi na hoye boro dekhabe */
+        height: auto;         /* Ratio thik thakbe */
+        margin-bottom: 8px;   /* Ekta chhobi theke arektar gap */
+    }
+}
+
+/* --- Media Query for Tablets (601px to 768px) --- */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .imge {
+        width: 300px;         /* Tablet-er jonno thora boro size */
+        height: 250px;
+    }
+}
 </style>
 </body>
  </html>
