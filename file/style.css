@@ -4,3 +4,15 @@
             border-radius:5px;
             display:inline-block ;
         }
+         #tittle {
+    color: rgb(255, 6, 6);
+    background: rgba(0, 128, 0, 0.26);
+    width: 150px;           /* Element-er width */
+    border: 1px solid green;
+    border-radius: 20px;
+    display: block;         /* Block na korle margin auto kaj korbe na */
+    margin: 20px auto;      /* Eita-i lekha-tike screen-er majhkane anbe */
+    text-align: center;     /* Background-er bhetore lekha-tike center korbe */
+    white-space: nowrap;
+    padding: 5px 0;         /* Dekhte arektu sundor lagbe */
+} 
