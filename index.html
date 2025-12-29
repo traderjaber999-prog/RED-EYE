@@ -68,12 +68,7 @@
         border:1px dotted  green ;width: 240px;
         border-radius:10px;
     }
-    .ok{ border: 1px dotted green; width:180px;
-        border-radius:5px;
-        margin: 5px;
-       padding:3px;
-       
-    }
+   
     .ok:hover{
         background-color: rgba(118, 134, 118, 0.507);
         color:rgb(105, 110, 53);
@@ -90,9 +85,9 @@
     text-align: center;     /* Background-er bhetore lekha-tike center korbe */
     white-space: nowrap;
     padding: 5px 0;         /* Dekhte arektu sundor lagbe */
-  
-   
-}
+
+
+    }
     
     
   
@@ -192,7 +187,73 @@
     content: " ❤️ ";
     
 }
+.oks{border: 1px dotted green; width:180px;
+        border-radius:5px;
+        margin: 5px;
+       padding:3px;
 
+
+           animation-name:tittle;
+    animation-duration:2s;
+    animation-delay:0.1s;
+    animation-direction:alternate;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
+
+
+  
+   
+}
+@keyframes tittle{
+                  from{ margin-left:o; margin-top:0;}
+                  to{ margin-left:200px; margin-top:0;}
+}
+.okss{
+    border: 1px dotted green; width:180px;
+        border-radius:5px;
+        margin: 5px;
+       padding:3px;
+
+
+           animation:tittle 2s 0.1s alternate infinite forwards ease;
+  
+}
+
+
+.oksss{
+    border: 1px dotted green; width:180px;
+        border-radius:5px;
+        margin: 5px;
+       padding:3px;
+
+ animation:tittle 2s 0.1s alternate infinite forwards ease-out;  
+}
+
+
+.okssss{
+    border: 1px dotted green; width:180px;
+        border-radius:5px;
+        margin: 5px;
+       padding:3px;
+       color: rgb(32, 8, 88);
+
+animation:tittle 2s 0.1s alternate infinite ease-in-out forwards   
+}
+    .ok{ border: 1px dotted green; width:180px;
+        border-radius:5px;
+        margin: 5px;
+       padding:3px;
+
+
+           animation-name:tittle;
+    animation-duration:2s;
+    animation-delay:0.1s;
+    animation-direction:alternate;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+    animation-timing-function: ease-in;
+    }
 
 </style>
 <link rel="stylesheet" href="file/style.css">
@@ -202,10 +263,10 @@
 
 <ol>
     <li class="ok">i am a good man</li>
-    <li class="ok">so it is best time for me </li>
-    <li class="ok">i willdo it</li>
-    <li class="ok">ok its an good things</li>
-    <li class="ok">wow thats <span id="know">cool</span></li>
+    <li class="oks">so it is best time for me </li>
+    <li class="okss">i willdo it</li>
+    <li class="oksss">ok its an good things</li>
+    <li class="okssss">wow thats <span id="know">cool</span></li>
 </ol>
 
 <div>
