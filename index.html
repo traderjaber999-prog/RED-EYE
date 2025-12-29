@@ -10,7 +10,7 @@
 <body> 
 
 
-<h3 id="tittle">RED EYE <img id="st" src="image/sticker.webp" alt="sticker"></h3>
+<h3 id="tittle"><span class="moving-content">RED EYE <img id="st" src="image/sticker.webp" alt="sticker"></span></h3>
 
 <p>Red eye is a brand name.<br> This is my dream brand here you see something about my brand</p>
 <img src="compress-i/IMG_0020.webp" class="img" width="300"  alt="RED EYE BUS">
@@ -72,29 +72,63 @@
     .ok:hover, .oks:hover, .okss:hover, .oksss:hover, .okssss:hover{
         background-color: rgba(118, 134, 118, 0.507);
         color:rgb(105, 110, 53);
-        border-radius:0px;
+        border-radius:5px;
     }
+
+
     #tittle {
-    color: rgb(255, 6, 6);
-    background: rgba(0, 128, 0, 0.26);
-    width: 150px;           /* Element-er width */
-    border: 1px solid green;
-    border-radius: 20px;
-     display:block;    /* Block na korle margin auto kaj korbe na */
-    margin: 20px auto;      /* Eita-i lekha-tike screen-er majhkane anbe */
-    text-align: center;     /* Background-er bhetore lekha-tike center korbe */
-    white-space: nowrap;
-    padding: 5px 0;         /* Dekhte arektu sundor lagbe */
+  color:#d90429;
+  background-color: #f8f9fa;
+  border:3px;
+  border-radius: 5px;
+  text-align: center;
+ }
+.moving-content{
+    font-size: 25px;
+    animation:redeye 2s 0.1s normal 1 forwards ease;
+    
+ }
+    @keyframes redeye{
+        from{ margin-left:-1100px; margin-top:0px;}
+        to{margin-left:0px;margin-top:0px;}
+    }
+
+/* ১. ফোনের জন্য আলাদা কী-ফ্রেম (যেহেতু ফোনের স্ক্রিন ছোট, তাই -১১০০পিএক্স দিলে অনেক দূর চলে যাবে) */
+@keyframes redeye-phone {
+    from { 
+        margin-left: -220px; /* পিসির মতো বড় ভ্যালু না দিয়ে ছোট ভ্যালু দিন */
+        margin-top: 0px; 
+    }
+    to { 
+        margin-left: 0px; 
+        margin-top: 0px; 
+    }
+}
+
+/* ২. মিডিয়া কুয়েরি সেট করা */
+@media only screen and (max-width: 600px) {
+    .moving-content {
+        /* এখানে আগের এনিমেশনটি বদলে ফোনের কী-ফ্রেমটি দিন */
+        animation: redeye-phone 2s 0.1s normal 1 forwards ease;
+        font-size: 18px; /* ফোনের জন্য ফন্ট সাইজ একটু ছোট করে দিতে পারেন */
+    }
+}
 
 
-    }
-    
-    
-  
-    
-    #tittle:hover{
-        color:rgb(33, 110, 33)
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
     #instagram{
         margin-left: 28px;
     }
