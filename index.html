@@ -12,7 +12,7 @@
 
 <h3 id="tittle"><span class="moving-content">RED EYE <img id="st" src="image/sticker.webp" alt="sticker"></span></h3>
 
-<p>Red eye is a brand name.<br> This is my dream brand here you see something about my brand</p>
+<p style="color:blue">Red eye is a brand name.<br> This is my dream brand<br> here you see something <br>about my brand.</p>
 <img src="compress-i/IMG_0020.webp" class="img" width="300"  alt="RED EYE BUS">
 <br>
 <a href="https://t.me/jaberdeviloper"><img src="compress-i/myphoto.webp" class="img" width="300"  alt="my photo"></a>
@@ -93,25 +93,15 @@
         to{margin-left:0px;margin-top:0px;}
     }
 
-/* ১. ফোনের জন্য আলাদা কী-ফ্রেম (যেহেতু ফোনের স্ক্রিন ছোট, তাই -১১০০পিএক্স দিলে অনেক দূর চলে যাবে) */
-@keyframes redeye-phone {
-    from { 
-        margin-left: -220px; /* পিসির মতো বড় ভ্যালু না দিয়ে ছোট ভ্যালু দিন */
-        margin-top: 0px; 
-    }
-    to { 
-        margin-left: 0px; 
-        margin-top: 0px; 
-    }
-}
+@keyframes moving{
+    from{ margin-left:-210px; margin-top:0px;}
+    to{margin-left:0; margin-top:0;}
 
-/* ২. মিডিয়া কুয়েরি সেট করা */
-@media only screen and (max-width: 600px) {
-    .moving-content {
-        /* এখানে আগের এনিমেশনটি বদলে ফোনের কী-ফ্রেমটি দিন */
-        animation: redeye-phone 2s 0.1s normal 1 forwards ease;
-        font-size: 18px; /* ফোনের জন্য ফন্ট সাইজ একটু ছোট করে দিতে পারেন */
-    }
+}
+@media only screen and (max-width:600px){
+.moving-content{
+    animation:moving 3s 0.1s normal 1 forwards ease;
+    font-size:18px;
 }
 
 
@@ -120,7 +110,7 @@
 
 
 
-
+}
 
 
 
