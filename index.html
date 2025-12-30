@@ -81,27 +81,33 @@
   background-color: #f8f9fa;
   border:3px;
   border-radius: 5px;
-  text-align: center;
+  text-align:right;
+  overflow: hidden;
  }
+@keyframes pc{
+       0%{transform: translateX(10vw);}
+    100%{transform: translateX(-100vw);}
+}
 .moving-content{
-    font-size: 25px;
-    animation:redeye 2s 0.1s normal 1 forwards ease;
-    
- }
-    @keyframes redeye{
-        from{ margin-left:-1100px; margin-top:0px;}
-        to{margin-left:0px;margin-top:0px;}
-    }
+      animation:pc 5s 0.1s normal infinite none linear;
+      font-size:18px;
+    white-space: nowrap;
+    display:inline-block;
+}
+
+
 
 @keyframes moving{
-    from{ margin-left:-210px; margin-top:0px;}
-    to{margin-left:0; margin-top:0;}
-
+    0%{transform: translateX(30vw);}
+    100%{transform: translateX(-100vw);}
+   
 }
 @media only screen and (max-width:600px){
 .moving-content{
-    animation:moving 3s 0.1s normal 1 forwards ease;
+    animation:moving 5s 0.1s normal infinite none linear;
     font-size:18px;
+    white-space: nowrap;
+    display:inline-block;
 }
 
 
@@ -357,7 +363,7 @@ i can do <br>it with the help of allah.</p>
 <style>
    .imge{
     height:300px;
-    width:250px;
+    width:220px;
     display:block;
     overflow-y: auto;
     overflow-x: hidden;
@@ -394,18 +400,18 @@ background-color: rgb(236, 212, 177);
 @media only screen and (max-width: 600px) {
   
     video{
-        width:250px;
+        width:220px;
         height: auto;
     }
     .imge{
-        width:250px;
+        width:220px;
         height:300px;
     }
     #one{
-       margin-right:100px;
+       margin-right:200px;
     }
     .id{
-        margin-right:100px;
+        margin-right:200px;
     }
     .laa{
         margin-right:1px;
