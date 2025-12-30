@@ -13,9 +13,9 @@
 <h3 id="tittle"><span class="moving-content">RED EYE <img id="st" src="image/sticker.webp" alt="sticker"></span></h3>
 
 <p style="color:blue">Red eye is a brand name.<br> This is my dream brand<br> here you see something <br>about my brand.</p>
-<img src="compress-i/IMG_0020.webp" class="img" width="300"  alt="RED EYE BUS">
+<img src="compress-i/IMG_0020.webp" class="img"  alt="RED EYE BUS">
 <br>
-<a href="https://t.me/jaberdeviloper"><img src="compress-i/myphoto.webp" class="img" width="300"  alt="my photo"></a>
+<img src="compress-i/myphoto.webp" class="img" alt="my photo">
 <a href="https://www.instagram.com/"><p><b id="instagram">This is my instagram id</b></a></p>
 <ol class="it">
     <li >it is a bus brand name</li>
@@ -34,6 +34,9 @@
 <strong>Thank you for visiting my page</strong>
 
 <style>
+    body{
+        overflow-x: hidden;
+    }
     #st {
     height: 15px;
     width: 18px;
@@ -122,9 +125,23 @@
 }
 
 
+.img:hover{
+        animation:imge 1s 0.1s normal 1 forwards ease-in;
+       
+     
+         
+    }
+    @keyframes imge {
+        0%{transform: translateX(0px);}
+        100%{transform: translateX(10px);}
+    }
 
-
-
+ .img{
+        border:2px solid rgb(255, 255, 255);
+        border-radius:10px;
+      
+        width: 100px !important;
+    }
 
 
 }
@@ -156,6 +173,17 @@
     .img{
         border:2px solid rgb(255, 255, 255);
         border-radius:10px;
+        overflow: hidden;
+      
+        width: 200px ;
+    }
+    .img:hover{
+        animation:img 1s 0.1s normal 1 forwards ease-in;
+         
+    }
+    @keyframes img {
+        0%{transform: translateX(0px);}
+        100%{transform: translateX(200px);}
     }
    
    
@@ -430,10 +458,7 @@ background-color: rgb(236, 212, 177);
     }
     .laa{
         margin-right:1px;
-    }.img{
-        width:220px;
-    }
-}
+    }}
    
 </style>
 
