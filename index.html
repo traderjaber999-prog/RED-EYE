@@ -171,22 +171,21 @@
 
     }
     .img{
-        border:2px solid rgb(255, 255, 255);
-        border-radius:10px;
-        overflow: hidden;
-      
-        width: 200px ;
+        width:200px;
+        border-radius: 15px;
+        display: block;
+        transition: transform 1s ease-in-out 0.1s;
+
     }
     .img:hover{
-        animation:img 1s 0.1s normal 1 forwards ease-in;
-         
+        animation: transform 2s 0s alternate none infinite ease-in-out;
+        transform:translateX(100px) ;
     }
-    @keyframes img {
-        0%{transform: translateX(0px);}
-        100%{transform: translateX(200px);}
-    }
-   
-   
+
+
+
+
+
     #fb:hover{
         background-color: rgba(0, 128, 0, 0.507); border: 1px solid green;
         color:rgb(170, 44, 44);border-radius:5px;
