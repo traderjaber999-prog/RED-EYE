@@ -34,13 +34,13 @@
 <strong>Thank you for visiting my page</strong>
 
 <style>
-    #st{
-        height: 18px;
-        width:20px;
-        margin-left: 5px;
-        margin-top:1px;
-      
-    }
+#st {
+    height: 18px;
+    width: 20px;
+    margin-left: 5px;
+    display: inline-block;
+    transform: translateY(3px); /* এটি দিয়ে আপনি একদম নিখুঁতভাবে নিচে নামাতে পারবেন */
+}
     #instagram::before{
         content: "Hi ";
     }
@@ -83,6 +83,7 @@
   border-radius: 5px;
   text-align:right;
   overflow: hidden;
+
  }
 @keyframes pc{
        0%{transform: translateX(10vw);}
@@ -216,6 +217,7 @@
         border-radius:5px;
         margin: 5px;
        padding:3px;
+       overflow: hidden;
 
 
            animation-name:tittle;
@@ -288,6 +290,9 @@ animation:tittle 2s 0.1s alternate infinite ease-in-out forwards
     animation-fill-mode:forwards;
     animation-timing-function: ease-in;
     }
+    .all-ok{
+        overflow: hidden;
+    }
 
 </style>
 <link rel="stylesheet" href="file/style.css">
@@ -295,7 +300,7 @@ animation:tittle 2s 0.1s alternate infinite ease-in-out forwards
 <a id="help" href="https://m.me/junaid.al.jaber?hash=Abb4HLkShByPhx68&source_id=8585216" ><button id="button-2">Help</button></a>
 
 
-<ol>
+<ol class="all-ok">
     <li class="ok">i am a good man</li>
     <li class="oks">so it is best time for me </li>
     <li class="okss">i willdo it</li>
