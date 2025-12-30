@@ -34,13 +34,23 @@
 <strong>Thank you for visiting my page</strong>
 
 <style>
-#st {
-    height: 18px;
-    width: 20px;
+    #st {
+    height: 15px;
+    width: 18px;
     margin-left: 5px;
     display: inline-block;
-    transform: translateY(3px); /* এটি দিয়ে আপনি একদম নিখুঁতভাবে নিচে নামাতে পারবেন */
+    transform: translateY(2px); /* আপনার আগের সেট করা পজিশন */
+    
+    /* এনিমেশনটি কতটা স্মুথ হবে তা ঠিক করে */
+    transition: transform 0.5s ease; 
 }
+
+/* মাউস নিলে যা ঘটবে */
+#st:hover {
+    /* স্টিকারটি ৩৬০ ডিগ্রি বা পুরো এক পাক ঘুরবে */
+    transform: translateY(4px) rotate(360deg); 
+}
+
     #instagram::before{
         content: "Hi ";
     }
